@@ -1,0 +1,41 @@
+.commentsContent{
+    display: flex;
+    flex-direction: column;
+    border: solid 1px rgb(58, 120, 255);
+    border-radius: 10px;
+}
+
+.commentsTitle{
+    margin: 1vh auto;
+    font-size: 3vh;
+    color: rgb(58, 120, 255)
+}
+
+.commentCard{
+    width: 75vw;
+    padding: 0;
+    margin: 1vh auto;
+    background-color: rgb(167, 195, 255);
+    border-radius: 10px;
+}
+.commentCard h4{
+    margin: 1vh;
+}
+.commentCard p{
+    width: 50vw;
+    margin: 1vh auto 2vh auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.editForm{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.inputEdit{
+    height: 2.5vh;
+    width: 40vw;
+    margin: auto 1vw;
+    color: rgb(58, 120, 255)
+}

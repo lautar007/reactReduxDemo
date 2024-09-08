@@ -1,0 +1,31 @@
+.postsList{
+    display: flex;
+    flex-direction: column;
+}
+
+.postCard{
+    border: solid 2px rgb(58, 120, 255);
+    margin: 2vh 0 0 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.MuiCardContent-root{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+
+.MuiTypography-h5{
+    color: rgb(58, 120, 255);
+}
+
+.MuiTypography-body2{
+    margin: 1vh auto;
+    width: 50vw;
+}
+
+.AppBtn{
+    background-color: rgb(58, 120, 255);
+    color: white;
+    margin: 1vh;
+}
